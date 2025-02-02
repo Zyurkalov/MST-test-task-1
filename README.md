@@ -1,6 +1,6 @@
 # First test task in MST
 > Real Estate Agency Website Page</br>
-> [Ссылка](https://www.figma.com/design/Bxaf0gbgU9jlZPJ9IJWP9r/test_mst?node-id=65-571&t=40bm5AFBvwiIsSli-0) - page with the website layout
+> [Link](https://www.figma.com/design/Bxaf0gbgU9jlZPJ9IJWP9r/test_mst?node-id=65-571&t=40bm5AFBvwiIsSli-0) - page with the website layout
 
 ## What has been done:
 ### Main functionality (completed)
@@ -12,8 +12,8 @@
   
 ### Installation / Launch::
 
-- To view, simply follow this link:
-  file:///C:/Users/Admin/projects/MST-test-task-1/index.html </br> 
+- To view, simply follow this link: 
+- [Link](https://zyurkalov.github.io/MST-test-task-1/)</br> 
 
 
 ### Tools used:
