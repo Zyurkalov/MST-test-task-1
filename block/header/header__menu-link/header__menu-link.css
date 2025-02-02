@@ -1,0 +1,32 @@
+.header__menu-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary-color-white);
+
+    transition: color 0.3s ease;
+}
+
+.header__menu-link:hover {
+    color: var(--color-dark-dune);
+}
+
+@media (max-width: 750px) {
+    .header__menu-link  {
+        font-size: 0.8rem;
+    }
+    .header__menu-link_footer {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .header__menu-link  {
+        font-size: 0.7rem;
+    }
+    .header__menu-link_footer {
+        font-size: 1rem;
+    }
+}

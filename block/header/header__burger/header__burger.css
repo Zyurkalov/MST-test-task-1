@@ -1,0 +1,15 @@
+.header__burger {
+    display: none;
+    flex-direction: column;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--secondary-color-white);
+    opacity: 80%;
+}
+
+@media (max-width: 600px) {
+    .header__burger {
+        display: flex;
+    }
+}

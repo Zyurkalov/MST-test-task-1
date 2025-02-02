@@ -1,0 +1,61 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts.css);
+@import url(../../vendor/index.css);
+@import url(../../vendor/webkit-text.css);
+
+@import url(../../block/body/body.css);
+@import url(../../block/main/main.css);
+
+/* header */
+@import url(../../block/header/header.css);
+@import url(../../block/header/header-logo/header-logo.css);
+@import url(../../block/header/header__nav/header__nav.css);
+@import url(../../block/header/header__menu/header__menu.css);
+@import url(../../block/header/header__menu-link/header__menu-link.css);
+@import url(../../block/header/header__burger/header__burger.css);
+
+/* lead */
+@import url(../../block/lead/lead__container/lead_container.css);
+@import url(../../block/lead/lead.css);
+@import url(../../block/lead/lead__title/lead__title.css);
+@import url(../../block/lead/lead__subtitle/lead__subtitle.css);
+@import url(../../block/lead/lead__list/lead__list.css);
+@import url(../../block/lead/lead__paragraph/lead__paragraph.css);
+@import url(../../block/lead/lead__span/lead__span.css);
+@import url(../../block/lead/lead__img/lead__img.css);
+@import url(../../block/lead/lead__batton/lead__batton.css);
+@import url(../../block/lead/lead__figure-img/figure-img.css);
+
+/* description */
+@import url(../../block/description/description.css);
+@import url(../../block/description__list/description__list.css);
+@import url(../../block/description__img/description__img.css);
+@import url(../../block/description__list-icon/description__list-icon.css);
+@import url(../../block/description__paragraph/description__paragraph.css);
+
+/* images */
+@import url(../../block/images/images.css);
+@import url(../../block/images/images__img/images__img.css);
+
+/* submit-form */
+@import url(../../block/submit-form/submit-form.css);
+@import url(../../block/submit-form/submit-form__forms/submit-form__forms.css);
+@import url(../../block/submit-form/submit-form__inputs/submit-form__inputs.css);
+@import url(../../block/submit-form/submit-form__header/submit-form__header.css);
+@import url(../../block/submit-form/submit-form__form-group/submit-form__form-group.css);
+@import url(../../block/submit-form/submit-form__component/submit-form__component.css);
+@import url(../../block/submit-form/submit-form__image-containerg/submit-form__image-container.css);
+@import url(../../block/submit-form/submit-form__img/submit-form__img.css);
+@import url(../../block/submit-form/submit-form__people/submit-form__people.css);
+/* @import url(../../block/submit-form/submit-form__button/submit-form__button.css); */
+
+/* custom-checkbox */
+@import url(../../block/custom-checkbox/custom-checkbox.css);
+
+/* footer */
+@import url(../../block/footer/footer.css);
+@import url(../../block/footer/footer__nav/footer__nav.css);
+@import url(../../block/footer/footer__menu/footer__menu.css);
+@import url(../../block/footer/footer__link/footer__link.css);
+@import url(../../block/footer/footer__menu-list/footer__menu-list.css);
+@import url(../../block/footer/footer__container/footer__container.css);

@@ -1,0 +1,24 @@
+.header__logo {
+    padding-left: var(--padding);
+}
+
+.header__logo > a{
+    font-family: 'Prata';
+    font-size: 2.1rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header__logo_footer {
+        padding: 0;
+    }
+  }
+
+/* 
+@media (max-width: 660px) {
+    .header__logo {
+        padding-left: 0;
+    }
+} */

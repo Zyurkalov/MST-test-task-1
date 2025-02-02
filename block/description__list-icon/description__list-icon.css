@@ -1,0 +1,7 @@
+.description__list-icon {
+    padding-top: 0.3rem;
+    /* max-height: fit-content; */
+    height: 2.5rem;
+    object-fit: contain;
+    object-position: top;
+}

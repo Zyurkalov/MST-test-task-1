@@ -1,0 +1,23 @@
+.description__list {
+    margin: 0;
+    max-width: 36.1rem;
+    padding: 0 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+.description__list > li {
+    padding: 2.3rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+
+    border-bottom: solid 2px var(--color-iron);
+}
+
+.description__list li:last-of-type {
+    border: none;
+}

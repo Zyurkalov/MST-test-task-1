@@ -1,0 +1,8 @@
+.lead__span {
+    /* display: block; */
+
+    font-family: 'Prata';
+    font-weight: var(--font-regular);
+    font-size: 2.2rem;
+
+}

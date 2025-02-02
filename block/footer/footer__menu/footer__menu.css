@@ -1,0 +1,13 @@
+.footer__menu {
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+
+    border-top: solid 1px var(--color-dark-dune);
+    border-bottom: solid 1px var(--color-dark-dune);
+}
+.footer__menu_doc {
+    border: 0;
+}

@@ -1,0 +1,10 @@
+.submit-form__header {
+    margin: 0;
+    padding-top: 4.5rem ;
+    padding-bottom: 2.64rem;
+    
+    max-width: 26rem;
+    font-family: 'Prata';
+    font-size: 3.17rem;
+    color: var(--color-oceanic)
+}

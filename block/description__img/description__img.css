@@ -1,0 +1,17 @@
+.description__img {
+    display: contents;
+    margin: 0;
+}
+
+.description__img > img {
+    object-fit: cover;
+    object-position: right bottom;
+    max-width: 31%;
+    min-height: 100%;
+}
+
+@media (max-width: 1100px) {
+    .description__img {
+        display: none;
+    }
+}

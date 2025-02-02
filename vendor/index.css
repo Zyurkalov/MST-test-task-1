@@ -1,0 +1,37 @@
+:root {
+    --primary-color-black: rgba(34, 34, 34, 1);
+    --primary-color-half-black: rgba(34, 34, 34, 0.5);
+    --secondary-color-black: rgba(40, 40, 41, 1);
+
+    --primary-color-white: rgba(255, 255, 255, 1);
+    --secondary-color-white: rgba(255, 255, 255, 0.9);
+    --color-oceanic: rgba(56, 83, 93, 1);
+    --color-dark-dune: rgba(213, 201, 190, 1);
+    --color-iron: rgba(85, 86, 90, 1);
+
+    --font-regular: 400;
+    --font-bold: 600;
+    --section-width: 90%;
+    --padding: 7%;
+
+    --max-width: 1600px;
+}
+
+@media screen and (max-width: 620px) {
+    html {
+        font-size: 14px;
+    }
+  }
+
+  
+@media screen and (max-width: 540px) {
+    html {
+        font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    html {
+        font-size: 10px;
+    }
+  }

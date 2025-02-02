@@ -1,0 +1,25 @@
+.submit-form__form-group {
+    padding: 0;
+    border: 0;
+}
+
+.submit-form__form-group > label:not([for="privacy-policy"]) {
+    display: block;
+    position: absolute;
+    left: -9999px;
+}
+
+.submit-form__form-group > input {
+    min-width: calc(100% - 38px);
+    padding-left: 2.23rem;
+    font-size: 1.4rem;
+    height: 3.8rem;
+    color: var(--color-iron);
+
+    border: solid 2px var(--color-dark-dune);
+    border-radius: 4px;
+}
+
+.submit-form__form-group label:last-of-type {
+    top: 10px
+}

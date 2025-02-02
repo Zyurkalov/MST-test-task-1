@@ -1,0 +1,13 @@
+.lead__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.lead__list > li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2.2rem;
+}

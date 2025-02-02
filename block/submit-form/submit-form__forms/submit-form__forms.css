@@ -1,0 +1,5 @@
+.submit-form__forms {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}

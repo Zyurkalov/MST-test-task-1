@@ -1,0 +1,36 @@
+.custom-checkbox {
+    position: relative;
+    cursor: pointer; 
+}
+
+.custom-checkbox > input[type="checkbox"] {
+    position: absolute;
+    opacity: 0; 
+    cursor: pointer; 
+}
+
+.checkbox-indicator {
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    border: 2px solid var(--color-iron); 
+    border-radius: 4px; 
+    margin-right: 8px; 
+    vertical-align: middle; 
+    transition: background-color 0.3s, color 0.3s; 
+    position: relative;
+}
+
+.custom-checkbox > input[type="checkbox"]:checked + .checkbox-indicator {
+    background-color: var(--color-iron);
+}
+
+.custom-checkbox > input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "✔";
+    position: absolute;
+    top: 50%; 
+    left: 4px;
+    transform: translateY(-50%); 
+    color: white;
+    font-size: 16px;
+}

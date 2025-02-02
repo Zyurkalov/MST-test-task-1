@@ -1,0 +1,27 @@
+.submit-form__people {
+    height: 800px;
+    position: absolute;
+    right: 10%;
+    bottom: -90px;
+}
+.submit-form__people_owl {
+    height: 730px;
+    right: -10%;
+}
+
+@media screen and (max-width: 1400px) {
+    .submit-form__people  {
+        right: 0;
+    }
+}
+
+@-moz-document url-prefix() {
+    @media screen and (max-width: 900px) {
+        .submit-form__people  {
+            height: 850px;
+        }
+    }
+    /* .submit-form__people {
+        height: 850px;
+    } */
+}

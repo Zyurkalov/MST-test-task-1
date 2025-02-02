@@ -1,0 +1,20 @@
+.webkit-text {
+    display: -webkit-box; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.webkit-text_4 {
+    -webkit-line-clamp: 4;
+}
+
+.webkit-text_2 {
+    -webkit-line-clamp: 2;
+}
+
+.webkit-text_1 {
+    -webkit-line-clamp: 1;
+}
+

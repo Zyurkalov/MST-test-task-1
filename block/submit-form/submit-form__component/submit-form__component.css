@@ -1,0 +1,25 @@
+.submit-form__component {
+    max-width: var(--max-width);
+    margin-top: 30px;
+    box-sizing: border-box;
+    margin-left: var(--padding);
+    margin-right: var(--padding);
+
+
+    padding-left: var(--padding);
+
+    border-radius: 1.4rem;
+    background-color: var(--primary-color-white);
+}
+
+@media screen and (max-width: 1100px) {
+    .submit-form__component {
+        margin: 30px 0 0 0;
+        border-radius: 0;
+    }
+  }
+  @media screen and (max-width: 870px) {
+    .submit-form__component {
+        padding-right: var(--padding)
+    }
+  }

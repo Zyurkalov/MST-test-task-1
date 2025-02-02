@@ -1,0 +1,27 @@
+.lead__button {
+    min-width: calc(100% - 2rem);
+    min-height: 4.75rem;
+    margin-top: 0.5rem;
+
+    font-size: 2.2rem;
+    font-weight: var(--font-bold);
+
+    border: none;
+    border-radius: 0.25rem;
+
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+.lead__button_footer {
+    margin-top: 20px;
+    margin-bottom: 5.29rem;
+    font-weight:400;
+    color: var(--secondary-color-white);
+    background-color: var(--secondary-color-black);
+}
+
+.lead__button:hover {
+    background-color: var(--color-dark-dune);
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+

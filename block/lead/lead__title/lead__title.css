@@ -1,0 +1,8 @@
+.lead__title {
+    margin: 0;
+    font-size: 4rem;
+    max-width: 28rem;
+
+    font-family: 'Prata';
+    color: var(--primary-color-white);
+}

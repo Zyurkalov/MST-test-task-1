@@ -1,0 +1,14 @@
+@font-face {
+    src:
+        url(./fonts/Prata-Regular.ttf) format('truetype');
+    font-family: 'Prata';
+    font-weight: 400;
+}
+
+@font-face {
+    src:
+        url(./fonts/prata-regular-webfont.woff2) format('woff2'),
+        url(./fonts/prata-regular-webfont.woff) format('woff');
+    font-family: 'Prata';
+    font-weight: 400;
+}
